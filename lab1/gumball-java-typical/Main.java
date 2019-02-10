@@ -1,20 +1,35 @@
 public class Main {
 
 	public static void main(String[] args) {
-		GumballMachine gumballMachine = new GumballMachine(5);
+		GumballMachine oneQuarterMachine = new QuartersAcceptingGamballMachine(2, CostForAGumBall.QuarterCents);
+		GumballMachine twoQuartersMachine = new QuartersAcceptingGamballMachine(1, CostForAGumBall.FiftyCents);
+		GumballMachine multipleCoinsMachine = new MultiCoinsAcceptingGamBallMachine(4, CostForAGumBall.FiftyCents);
 
-		System.out.println(gumballMachine);
+		System.out.println("gumballMachine");
 
-		gumballMachine.insertQuarter( 25 );
-		gumballMachine.turnCrank();
+		oneQuarterMachine.insertCoin(25);
+		oneQuarterMachine.turnCrank();
 
-		System.out.println(gumballMachine);
+		System.out.println("gumballMachine");
 
-		gumballMachine.insertQuarter( 25 );
-		gumballMachine.turnCrank();
-		gumballMachine.insertQuarter( 25 );
-		gumballMachine.turnCrank();
-
-		System.out.println(gumballMachine);
+		twoQuartersMachine.insertCoin(25);
+		twoQuartersMachine.insertCoin(25);
+		twoQuartersMachine.turnCrank();
+		
+		twoQuartersMachine.insertCoin(25);
+		twoQuartersMachine.turnCrank();
+		
+		
+		multipleCoinsMachine.insertCoin(10);
+		multipleCoinsMachine.turnCrank();
+		
+		multipleCoinsMachine.insertCoin(25);
+		multipleCoinsMachine.insertCoin(5);
+		multipleCoinsMachine.insertCoin(10);
+		multipleCoinsMachine.insertCoin(10);
+		multipleCoinsMachine.insertCoin(10);
+		multipleCoinsMachine.turnCrank();
+		
+		System.out.println("gumballMachine");
 	}
 }
