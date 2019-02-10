@@ -7,3 +7,6 @@
 /SoldOutState.class
 /SoldState.class
 /State.class
+/AcceptedCoins.class
+/CostForAGumBall.class
+/noCoinState.class

@@ -1,11 +1,11 @@
-public class NoQuarterState implements State { 
+public class noCoinState implements State { 
     GumballMachine gumballMachine;
  
-    public NoQuarterState(GumballMachine gumballMachine) {
+    public noCoinState(GumballMachine gumballMachine) {
         this.gumballMachine = gumballMachine;
     }
  
-	public void insertQuarter() {
+	public void insertCoin() {
 		System.out.println("You inserted a quarter");
 		gumballMachine.setState(gumballMachine.getHasQuarterState());
 	}

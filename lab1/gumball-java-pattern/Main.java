@@ -1,7 +1,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		GumballMachine gumballMachine = new GumballMachine(5);
+		GumballMachine gumballMachine = new QuartersAcceptingGamballMachine(5, CostForAGumBall.QuarterCents);
 
 		System.out.println(gumballMachine);
 
