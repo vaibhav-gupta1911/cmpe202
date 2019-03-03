@@ -59,21 +59,16 @@ Also, while registering and unregistering and notifying cutomer of availble tabl
 
 
 Why choosen this chain responsibilty pattern?
-Beacuse chain responsibility best fits when more than one object may handle a request, and the handler isn't known a priority. The handler should be ascertained automatically.
+--Beacuse chain responsibility best fits when more than one object may handle a request, and the handler isn't known a priority. The handler should be ascertained automatically.
 Here TableHandler is playing that role of handling a customer booking request by passing the hadler to the first availble tables that macthes customer numberOfPeople criterio.
 
 --Pattern basically given an opportunity to handle the customer request by linking available table objects together.
 --Also it avoifs coupling the sender to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along
 the chain until an object handles it.
 
+# Participant role:
 
-
-
-
-
-
-
-
-
-
-
+-Class: TableHandler -- role - Handler for chain responsibilty client's request
+-Class: RestaurantManager  -- role - client for chain responsibilty handler
+-Class: Customer -- role - observer 
+-Class: RestaurantManager  -- role - subject for customer observer
