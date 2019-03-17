@@ -1,0 +1,43 @@
+Printing Order Bil Receipt
+
+           FIVE GUYS
+         BURGER & FRIES
+         STORE #CA 1294
+        SAN JOSE, CA 95111
+
+Order Number :  45
+
+1  LBB                   $5.59
+{{{{Bacon}}}}
+Lettuce
+Tomato
+->G Onion
+->Jala Grilled
+
+
+Sub. Total:              $5.59
+Tax:                     $0.5031
+Total:                   $6.0931
+
+--------------------
+
+Printing Order Packing Receipt
+
+Pattie 1
+
+Order Number :  45
+
+       FIVE GUYS
+
+1  LBB
+Lettuce
+Tomato
+->G Onion
+->Jala Grilled
+{{{{Bacon}}}}
+
+
+Register:1        Tran Seq: 54784
+
+
+--------------------

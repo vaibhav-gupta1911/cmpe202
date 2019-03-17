@@ -1,0 +1,7 @@
+package BurgerOrderManagement;
+
+public abstract class Toppings implements IToppings{
+	  public String name = "bb";
+	  public int fixedPrice;
+	  public String type = "";
+}

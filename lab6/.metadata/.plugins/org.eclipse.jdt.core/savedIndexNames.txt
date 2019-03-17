@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+E:\202_All\cmpe202Starbuks\.metadata\.plugins\org.eclipse.jdt.core
+838760251.index
+1882854977.index
+3726496829.index
+2887253757.index
+3509080161.index

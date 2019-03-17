@@ -1,0 +1,22 @@
+package BurgerOrderManagement;
+
+public class BillReceipt implements IReceiptStrategy{
+
+	 public String DefaultDisplay()
+	    {
+	    	StringBuilder address = new StringBuilder();
+	    	
+	    	address.append("           FIVE GUYS\n");
+	    	address.append("         BURGER & FRIES\n");
+	    	address.append("         STORE #CA 1294\n");
+	    	address.append("        SAN JOSE, CA 95111\n"); 
+	       	
+	    	return address.toString();  			
+	    }
+		   
+	 public void PrintReceipt(String value)
+	 {
+		 System.out.print("Printing Order Bil Receipt\n\n");
+		 System.out.print(DefaultDisplay());
+	 }
+}

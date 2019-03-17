@@ -1,0 +1,27 @@
+package BurgerOrderManagement;
+
+import java.util.List;
+
+import com.sun.org.apache.bcel.internal.generic.LUSHR;
+
+public class CounterOrder {
+	
+
+	 public List<Toppings> topTopping = new List<Lettuce>();
+	 
+	 public void AddTopToppings(IToppings topping)
+	 {
+		 topTopping.add(topping);
+	 }
+	 
+	 public void AddMiddleToppings(IToppings topping)
+	 {
+		 
+	 }
+	 
+	 public void AddBottomToppings(IToppings topping)
+	 {
+		 
+	 }
+
+}

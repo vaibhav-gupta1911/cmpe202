@@ -1,0 +1,15 @@
+package BurgerOrderManagement;
+
+public class PrintReceipts {
+
+	 public static void main(final String[] args) {
+		 System.out.print("**Main Data**\n");
+		 
+		 StrategyContext strategyContext = new StrategyContext(new BillReceipt());		
+		 strategyContext.executeStrategy("");
+		 
+		 strategyContext = new StrategyContext(new PackingReceipt());		
+		 strategyContext.executeStrategy("");
+		 
+	 }
+}

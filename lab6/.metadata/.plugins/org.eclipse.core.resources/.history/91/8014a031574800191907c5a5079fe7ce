@@ -1,0 +1,14 @@
+package BurgerOrderManagement;
+
+public class Lettuce implements IToppings {
+
+	 // public String name = "Lettuce";
+	  
+	 
+	  //public int fixedPrice = 10;
+	  
+	  public void setprice()
+	  {
+		  //this.
+	  }
+}

@@ -1,0 +1,5 @@
+package BurgerOrderManagement;
+
+public abstract class Toppings implements IToppings{
+
+}

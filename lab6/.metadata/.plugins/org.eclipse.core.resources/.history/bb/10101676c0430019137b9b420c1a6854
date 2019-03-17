@@ -1,0 +1,28 @@
+/* (c) Copyright 2018 Paul Nguyen. All Rights Reserved */
+
+package starbucks ;
+
+/** My Cards Screen */
+public class MyCards extends Screen
+{
+	String cardBalance = "$0.00";
+	
+    public MyCards()
+    {
+       	 /**
+         * Get Display Contents
+         * @return Display Contents
+         */
+    }
+
+    public String GetCardBalance() { 
+        
+        return cardBalance; 
+    }
+    
+    public String display() { 
+               
+        return this.GetCardBalance(); 
+    }
+   
+}

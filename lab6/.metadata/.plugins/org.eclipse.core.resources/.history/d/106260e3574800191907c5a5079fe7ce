@@ -1,0 +1,15 @@
+package BurgerOrderManagement;
+
+public class Lettuce implements Toppings {
+
+	 public String name = "Lettuce";
+	  
+	 
+	 public int fixedPrice = 10;
+	  
+	  public void setprice()
+	  {
+		  //this.
+		  //this.fixedPrice = 10;
+	  }
+}

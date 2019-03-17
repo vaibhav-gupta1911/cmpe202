@@ -1,0 +1,34 @@
+package BurgerOrderManagement;
+
+import java.util.ArrayList;
+//import java.util.List;
+
+public class CounterOrder {
+	
+	 public CounterOrder(String orderNo) {
+		 orderNo = orderNo;
+	 }
+	 
+	 public ArrayList<Toppings> topTopping = new ArrayList<Toppings>();
+	 
+	 public ArrayList<Toppings> middleTopping = new ArrayList<Toppings>();
+	 
+	 public ArrayList<Toppings> bottomTopping = new ArrayList<Toppings>();
+	 
+	 public String orderNo;
+	 
+	 public void AddTopToppings(Toppings topping)
+	 {
+		 topTopping.add(topping);
+	 }
+	 
+	 public void AddMiddleToppings(Toppings topping)
+	 {
+		 middleTopping.add(topping);
+	 }
+	 
+	 public void AddBottomToppings(Toppings topping)
+	 {
+		 bottomTopping.add(topping); 
+	 }
+}

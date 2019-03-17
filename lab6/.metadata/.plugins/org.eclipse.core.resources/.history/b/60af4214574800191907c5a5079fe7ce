@@ -1,0 +1,9 @@
+package BurgerOrderManagement;
+
+public interface IToppings {
+
+	   String name = "";
+	   int fixedPrice = 0;
+}
+
+

@@ -1,0 +1,32 @@
+package BurgerOrderManagement;
+
+public class BillReceipt implements IReceiptStrategy{
+
+	 public String GetAddress()
+	    {
+	    	StringBuilder address = new StringBuilder();
+	    	
+	    	address.append("           FIVE GUYS\n");
+	    	address.append("         BURGER & FRIES\n");
+	    	address.append("         STORE #CA 1294\n");
+	    	address.append("        SAN JOSE, CA 95111\n\n"); 
+	       	
+	    	return address.toString();  			
+	    }
+		    
+	 public void PrintReceipt(CounterOrder order)
+	 {
+		 System.out.print("Printing Order Bil Receipt\n\n");
+		 System.out.print(GetAddress());
+		 System.out.print("Order Number :  ");
+		 System.out.print(order.orderNo + "\n\n");
+		 System.out.print(order.quantity + "  " + order.orderName + "            " + order.price + "\n");
+		 
+		 for (Toppings item: order.toppingsinUserSequence) {
+			    System.out.println(item.name");
+			}
+		 
+		 System.out.print(order.orderNo + "\n\n");
+	 }
+	
+}

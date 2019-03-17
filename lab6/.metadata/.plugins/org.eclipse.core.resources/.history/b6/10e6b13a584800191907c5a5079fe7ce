@@ -1,0 +1,28 @@
+package BurgerOrderManagement;
+
+import java.util.ArrayList;
+//import java.util.List;
+
+public class CounterOrder {
+	
+
+	 public ArrayList<Toppings> topTopping = new ArrayList<Toppings>();
+	 
+	 public void AddTopToppings(IToppings topping)
+	 {
+		 topTopping.add(topping);
+		 int item = (topTopping.get(0)).fixedPrice;
+		 System.out.print(item);
+	 }
+	 
+	 public void AddMiddleToppings(IToppings topping)
+	 {
+		 
+	 }
+	 
+	 public void AddBottomToppings(IToppings topping)
+	 {
+		 
+	 }
+
+}

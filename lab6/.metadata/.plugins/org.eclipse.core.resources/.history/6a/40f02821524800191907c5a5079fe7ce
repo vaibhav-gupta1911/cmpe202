@@ -1,0 +1,11 @@
+package BurgerOrderManagement;
+
+public class PackingReceipt implements IReceiptStrategy {
+
+	
+	 public void PrintReceipt(String value)
+	 {
+		 System.out.print("Printing Order Packing Receipt");
+	 }
+}
+ 

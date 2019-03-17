@@ -1,0 +1,30 @@
+/* (c) Copyright 2018 Paul Nguyen. All Rights Reserved */
+
+package starbucks;
+
+/** My Card Options Screen */
+public class MyCardsOptions extends Screen
+{
+   
+    public MyCardsOptions()
+    {
+       
+    }
+
+    /**
+     * Display MyCardsOptions available options
+     * @return cardOptions for Display
+     */
+    public String display()
+    {
+    	String cardOptions = "Reload\\n";
+    	
+    	//cardOptions.concat("Reload\n");
+    	cardOptions.concat("Refresh\\n");
+    	cardOptions.concat("More Options\\n");
+    	cardOptions.concat("Cancel");
+    
+    	return cardOptions;
+    			
+    }
+}
